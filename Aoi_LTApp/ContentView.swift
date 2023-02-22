@@ -32,6 +32,7 @@ class LocationViewModel: NSObject, CLLocationManagerDelegate, ObservableObject {
 struct ContentView: View {
     @ObservedObject var locationViewModel = LocationViewModel()
     @State private var showingAlert = false
+    @State private var navigationLinkIsActive = false
     @State private var alertText = ""
     @State private var listItems: [String] = []
     var body: some View {
@@ -65,11 +66,23 @@ struct ContentView: View {
                             .clipShape(Circle())
                     }
                     Spacer()
-                  g
-                    
-                    
-                   
+                    NavigationLink(destination: friendView(), isActive: $navigationLinkIsActive){
+                        EmptyView()
 
+                    }
+                    Button(action: {
+                        // Navigate to friendView
+                        self.navigationLinkIsActive = true
+                    }) {
+                        Image(systemName: "person")
+                            .font(.title)
+                            .padding()
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .clipShape(Circle())
+                    }
+                    Spacer()
+                    
                 }
                 
             }

@@ -43,6 +43,7 @@
 		F7237B69299399D4003E0C26 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7237B68299399D4003E0C26 /* SignInView.swift */; };
 		F7237B6B2993B3BF003E0C26 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7237B6A2993B3BF003E0C26 /* SwiftUIView.swift */; };
 		F769615929A613C900436902 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F769615829A613C900436902 /* Item.swift */; };
+		F769616129A6341600436902 /* friendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F769616029A6341600436902 /* friendView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		F7237B68299399D4003E0C26 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		F7237B6A2993B3BF003E0C26 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		F769615829A613C900436902 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F769616029A6341600436902 /* friendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				04A66B232984D5E7001F8A0B /* ContentView.swift */,
 				04B91AC929874DD0004B6B8E /* LoginView.swift */,
 				F7237B68299399D4003E0C26 /* SignInView.swift */,
+				F769616029A6341600436902 /* friendView.swift */,
 				F7237B6A2993B3BF003E0C26 /* SwiftUIView.swift */,
 				04A66B252984D5E9001F8A0B /* Assets.xcassets */,
 				F7237B66299398D3003E0C26 /* GoogleService-Info.plist */,
@@ -251,6 +254,7 @@
 				04A66B242984D5E7001F8A0B /* ContentView.swift in Sources */,
 				F7237B69299399D4003E0C26 /* SignInView.swift in Sources */,
 				04A66B222984D5E7001F8A0B /* Aoi_LTAppApp.swift in Sources */,
+				F769616129A6341600436902 /* friendView.swift in Sources */,
 				F769615929A613C900436902 /* Item.swift in Sources */,
 				F7237B6B2993B3BF003E0C26 /* SwiftUIView.swift in Sources */,
 			);
