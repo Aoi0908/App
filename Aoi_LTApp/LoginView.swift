@@ -10,22 +10,22 @@ struct LoginView: View {
     var body: some View {
         VStack {
             if !isLoggedIn {
-                TextField("Email", text: $email)
+                TextField("メールアドレス", text: $email)
                     .padding()
                     .background()
                     .cornerRadius(5.0)
                 
-                SecureField("Password", text: $password)
+                SecureField("パスワード", text: $password)
                     .padding()
-                    .background(Color(.lightGray))
+                    //.background(Color(.lightGray))
                     .cornerRadius(5.0)
                 
                 HStack {
                     Button(action: signUp) {
-                        Text("Sign UP")
+                        Text("アカウントを作成する /")
                     }
                     Button(action: login) {
-                        Text("Login")
+                        Text("ログイン")
                     }
                 }
                 

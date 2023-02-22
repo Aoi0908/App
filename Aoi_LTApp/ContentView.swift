@@ -65,6 +65,9 @@ struct ContentView: View {
                             .clipShape(Circle())
                     }
                     Spacer()
+                  g
+                    
+                    
                    
 
                 }
