@@ -65,34 +65,8 @@ struct ContentView: View {
                             .clipShape(Circle())
                     }
                     Spacer()
-                    ZStack {
-                        Button(action: {
-                            self.showingAlert.toggle()
-                        }) {
-                            Text("ボタン")
-                        }
-                        
-                        if showingAlert {
-                            ZStack() {
-                                Rectangle()
-                                    .foregroundColor(.gray)
-                                VStack {
-                                    Text("135円を入れてね！☆")
-                                    TextField("テキスト",text: $alertText)
-                                    HStack {
-                                        Button("OK") {
-                                            self.showingAlert.toggle()
-                                        }
-                                    }
-                                }.padding()
-                            }
-                            .frame(width: 300, height: 180,alignment: .center)
-                            .cornerRadius(20).shadow(radius: 20)
-                        }
-                    }
-                    Spacer()
-                    
-                    
+                   
+
                 }
                 
             }
