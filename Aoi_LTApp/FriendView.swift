@@ -9,9 +9,14 @@ import SwiftUI
 
 struct friendView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            Text("geho")
+        }
     }
 }
+
+
+
 
 struct friendView_Previews: PreviewProvider {
     static var previews: some View {
