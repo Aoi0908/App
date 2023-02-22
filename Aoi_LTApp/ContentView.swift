@@ -2,7 +2,6 @@
 //  ContentView.swift
 //  Aoi_LTApp
 //
-//  Created by 髙津悠樹 on 2023/01/28.
 //
 
 import SwiftUI
@@ -46,6 +45,9 @@ struct ContentView: View {
                     } else {
                         Text("Location not available.")
                     }
+                    
+                    Text("gehoge")
+                    
                 }
                 MapView(locationViewModel: locationViewModel)
                 HStack {
@@ -75,7 +77,7 @@ struct ContentView: View {
                                 Rectangle()
                                     .foregroundColor(.gray)
                                 VStack {
-                                    Text("100円を入れてね！☆")
+                                    Text("135円を入れてね！☆")
                                     TextField("テキスト",text: $alertText)
                                     HStack {
                                         Button("OK") {
